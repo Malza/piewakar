@@ -2,5 +2,9 @@ from django.conf.urls import url, include
 from . import views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^contact/$',views.contact, name='contact')
+    url(r'^contact/$',views.contact, name='contact'),
+    url(r'^us/$', views.us, name='us'),
+    url(r'^offer/$', views.offer, name='offer'),
+    url(r'^partners/$', views.partners, name='partners'),
+    url(r'^gethelp/$', views.gethelp, name='gethelp')
 ]

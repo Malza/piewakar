@@ -1,0 +1,21 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+{% load staticfiles %}
+<h1>Nasi partnerzy:</h1>
+
+
+<a href="http://www.radix.com.pl" target="_blank">
+  <img src="{% static 'personal/img/radix.jpg' %}" height="60">
+</a>
+<a href="http://www.wrpolska.pl" target="_blank">
+  <img src="{% static 'personal/img/wsa.jpg' %}" height="60">
+</a>
+<a href="http://www.drweb.com.pl/" target="_blank">
+  <img src="{% static 'personal/img/drweb.jpg' %}" height="60">
+</a>
+<a href="http://www.doskomp.lodz.pl/" target="_blank">
+  <img src="{% static 'personal/img/doskomp.jpg' %}"  height="60">
+</a>
+
+{% endblock %}
